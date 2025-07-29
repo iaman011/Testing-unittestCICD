@@ -25,5 +25,5 @@ jobs:
 
       - name: execute the test script
         run: |
-          python -m unittest test_greeter.py
+          python -m pytest test_greeter.py
     
